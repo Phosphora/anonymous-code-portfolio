@@ -77,27 +77,24 @@ export default function App() {
       {/* Différentes routes pour l'url */}
       <Routes>
         <Route exact path="/" element={< Accueil langue={langue} />} ></Route> {/*Page par défaut*/}
+
         <Route exact path="/accueil" element={< Accueil langue={langue} />} ></Route> {/*Page d'accueil*/}
 
-        <Route exact path="/grille-de-cours" element={< Formation_Specifique posts={posts} langue={langue} />} ></Route> {/*Page de Grille de Cours*/}
+        <Route exact path="/a-propos-de-moi" element={< MonProfil posts={posts} langue={langue} />} ></Route> {/*Page À propos de moi*/}
 
-        <Route exact path="/projets-etudiants" element={< Projets_Etudiants posts={posts} langue={langue} toggleAside={toggleAside} setToggleAside={setToggleAside} />} ></Route> {/*Page de Projets Étudiants*/}
+        <Route exact path="/portfolio" element={< MesProjets posts={posts} langue={langue} toggleAside={toggleAside} setToggleAside={setToggleAside} />} ></Route> {/*Page Portfolio*/}
 
-        <Route exact path="/activites" element={< Activites posts={posts} langue={langue} toggleAside={toggleAside} setToggleAside={setToggleAside} />} ></Route> {/*Page d'Activités*/}
+        <Route exact path="/activites" element={< Contact posts={posts} langue={langue} toggleAside={toggleAside} setToggleAside={setToggleAside} />} ></Route> {/*Page Contact*/}
 
-        <Route exact path="/futur" element={< Futur langue={langue} />} ></Route> {/*Page de Futur*/}
-
-        <Route exact path="/quiz" element={< Quiz langue={langue} />} ></Route> {/*Page de quiz*/}
-
-        <Route path='*' element={< Page_404 langue={langue} />} ></Route>
+        <Route path='*' element={< Page404 langue={langue} />} ></Route>
       </Routes>
-      <Pdp langue={langue} /> {/* Footer du site - Présent par défaut sur tous les pages qui suivent */}
+      <PiedDePage langue={langue} /> {/* Footer du site - Présent par défaut sur tous les pages qui suivent */}
       <ScrollToTop />
     </div>
   );
 }
 
-const appContainer = document.getElementById('Site-Web-TIM');
+const appContainer = document.getElementById('Site-Web-Portfolio');
 if (appContainer) {
   ReactDOM.render(<App />, appContainer);
 }
