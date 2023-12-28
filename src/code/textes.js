@@ -2,160 +2,42 @@
 
 // Page d'accueil
 export const texteAccueil = {
-
     fr: {
       section1: {
-        titre: "Winnie Li"
+        titre: "Bienvenue à la vitrine multimédia de Winnie Li"
       },
       section2: {
-        titre: "Bienvenue à ma vitrine multimédia !"
-      },
-      sectionProfs: {
-        titre: "Des enseignants au coeur de votre",
-        span: "réussite",
-        p1: "Nos professeurs apportent une expertise approfondie, une passion contagieuse et un engagement solide pour vous guider tout au long de votre parcours académique."
-      },
-      sectionTechno: {
-        titre: "des technologies de pointe",
-        span: "Maîtrisez",
-        p1: "Languages de programmation",
-        p2: "Logiciels de création",
+        titre: "Explorez la créativité, vivez l'innovation",
+        p: "Bonjour et bienvenue dans mon espace numérique, où la créativité rencontre la fonctionnalité, et l'innovation le design ! Je suis Winnie Li, une développeuse web passionnée et dynamique avec un intérêt marqué pour la création d'expériences numériques immersives. Si vous souhaitez en savoir plus sur moi, veuillez consulter la section de mon site web.",
+        lien: "À propos de moi"
       },
       section3: {
-        titre: "Découvrez votre potentiel avec notre",
-        span: "Quiz\u00A0interactif",
-        quiz: "Commencez le Quiz!",
-        temoignage: {
-          eleve1: {
-            nom: "Christophe",
-            message: "Grâce au programme TIM de Maisonneuve, j'ai eu l'opportunité d'explorer un vaste éventail de logiciels et d'aspects fascinants du monde du multimédia.",
-            annee: "3ième année"
-          },
-          eleve2: {
-            nom: "Shawn",
-            message: "Le TIM m'a permis de connaître des personnes avec des intérêts communs aux miens!",
-            annee: "3ième année"
-          },
-          eleve3: {
-            nom: "Lenny",
-            message: "Les projets offerts sont concrets et on ressort avec un portfolio bien garnis!",
-            annee: "2ième année"
-          },
-          eleve4: {
-            nom: "Vincent",
-            message: "Ayant fait un parascolaire en Jeu Vidéo dans le passé, le TIM m'a ouvert des portes sur d'autres disciplines tel que le Web et le Design.",
-            annee: "2ième année"
-          },
-          eleve5: {
-            nom: "Camilia",
-            message: "J'adore la variétés de logiciels et sujets qu'on apprends au TIM.",
-            annee: "2ième année"
-          },
-        }
+        titre: "Qu'est-ce qui me différencie des autres ?",
+        p: "Dans ce monde technologique dynamique, l'adaptabilité est essentielle. Mes compétences couvrent un large éventail d'outils et de langages de développement web, depuis HTML, CSS et JavaScript jusqu'aux frameworks les plus récents. Je me spécialise dans la transformation de concepts en sites web réactifs et visuellement étonnants qui laissent une impression durable."
       },
-      section5: {
-        titre: "Plongez dans le",
-        span: "TIM",
-        bouton: {
-          accueil: "Accueil",
-          cours: "Cours",
-          projets: "Projets étudiants",
-          prof: "Enseignants",
-          activite: "Activités",
-          futur: "Futur"
-        }
-      },
-      section6: {
-        titre: "Quels sont les",
-        span: "avantages",
-        li1: "9000$ en bourses (Perspective Québec), soit 1500$ après chaque session réussie à temps plein (6 sessions).",
-        li2: "85 % des diplômés occupent un emploi ou poursuivent leurs études.",
-        li3: "2 stages d’été rémunérés dans le cadre d’une alternance travail-études (ATE).",
-        li4: "Émergez du programme TIM avec un portfolio personnel riche en réalisations concrètes et significatives.",
-        inscription: "Inscris-toi!"
+      section4: {
+        titre: "Explorer mes projets",
+        p: "Jetez un coup d'œil à mon portfolio pour découvrir une gamme variée de projets qui mettent en valeur mes compétences et ma créativité. Chaque projet témoigne de mon engagement en faveur de la qualité et de mon souci du détail."
       }
     },
   
     en: {
       section1: {
-        titre1: "Techniques d'Intégration Multimédia",
-        span: "Maisonneuve\u00A0College",
-        p1: "Discover the magical union between creativity and programming."
+        titre: "Welcome to Winnie Li's multimedia showcase"
       },
       section2: {
-        titre: "Explore the universe of",
-        span: "Multimedia",
-        p1: "Immerse yourself in the exciting world of multimedia creation with our Multimedia Integration Techniques program (TIM).",
-        p2: "Develop your skills in visual design, interactive content production, and master cutting-edge technologies to shape the digital future.",
-        snippet: "Test me!",
-        resultat: "Result"
-      },
-      sectionProfs: {
-        titre: "Teachers at the heart of your",
-        span: "success",
-        p1: "Our teachers bring in-depth expertise, infectious passion and a strong commitment to guiding you through your academic journey."
-      },
-      sectionTechno: {
-        titre: "cutting-edge technologies",
-        span: "Master",
-        p1: "Programming languages",
-        p2: "Creation software",
+        titre: "Explore Creativity, Experience Innovation",
+        p: "Hello and welcome to my digital space, where creativity meets functionality, and innovation meets design! I'm Winnie Li, a passionate and dynamic web developer with a keen interest in creating immersive digital experiences. If you'd like to know more about me, please visit the section of my website.",
+        lien: "About me"
       },
       section3: {
-        titre: "Discover your potential with Our",
-        span: "Interactive\u00A0Quiz",
-        quiz: "Begin the Quiz!",
-        temoignage: {
-          eleve1: {
-            nom: "Christophe",
-            message: "Thanks to the Maisonneuve TIM program, I had the opportunity to explore a wide range of software and fascinating aspects of the multimedia world.",
-            annee: "3rd year"
-          },
-          eleve2: {
-            nom: "Shawn",
-            message: "TIM allowed me to meet people with similar interests!",
-            annee: "3rd year"
-          },
-          eleve3: {
-            nom: "Lenny",
-            message: "The projects offered are practical, and you graduate with a well-filled portfolio!",
-            annee: "2rd year"
-          },
-          eleve4: {
-            nom: "Vincent",
-            message: "Having participated in a video game extracurricular in the past, TIM opened doors to other disciplines like Web and Design.",
-            annee: "2rd year"
-          },
-          eleve5: {
-            nom: "Camilia",
-            message: "I love the variety of software and topics we learn in TIM.",
-            annee: "2rd year"
-          },
-        }
+        titre: "What Sets Me Apart?",
+        p: "In this dynamic world of technology, adaptability is key. My skill set spans a spectrum of web development tools and languages, from HTML, CSS, and JavaScript to the latest frameworks. I specialize in turning concepts into responsive and visually stunning websites that leave a lasting impression."
       },
-      section5: {
-        titre: "Dive into",
-        span: "TIM",
-        bouton: {
-          accueil: "Home",
-          cours: "Classes",
-          projets: "Student projects",
-          prof: "Teachers",
-          activite: "Activities",
-          futur: "Future",
-          quiz: "Quiz"
-        }
-      },
-      section6: {
-        titre: "What are the",
-        span: "Benefits",
-        li1: "9000$ in scholarships (Perspective Quebec), $1500 after each successful full-time session (6 sessions).",
-        li2: "85% of graduates are employed or continue their studies.",
-        li3: "2 paid summer internships as part of a work-study program (ATE).",
-        li4: "Emerge from the TIM program with a personal portfolio rich in tangible and meaningful achievements.",
-        inscription: "Register now!"
+      section4: {
+        titre: "Explore My Projects",
+        p: "Take a stroll through my portfolio to explore a diverse range of projects that showcase my skills and creativity. Each project is a testament to my commitment to quality and attention to detail."
       }
-  
     }
   };
   
@@ -164,7 +46,7 @@ export const texteAccueil = {
     fr: {
       sectionNav: {
         accueil: "Accueil",
-        cours: "Cours",
+        monProfil: "À propos de moi",
         projets: "Projets étudiants",
         prof: "Enseignants",
         activite: "Activités",
@@ -179,7 +61,7 @@ export const texteAccueil = {
     en: {
       sectionNav: {
         accueil: "Home",
-        cours: "Classes",
+        monProfil: "About me",
         projets: "Student projects",
         prof: "Teachers",
         activite: "Activities",
