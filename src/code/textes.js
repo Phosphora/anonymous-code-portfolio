@@ -67,21 +67,13 @@ export const texteAccueil = {
   // Footer
   export const texteFooter = {
     fr: {
-      adresse1: "3800 Rue Sherbrooke Est",
-      adresse2: "Montréal QC H1X 2A2",
-      joindre: "Nous joindre",
-      portes: "Portes ouvertes",
-      visite: "Visite virtuelle",
-      questions: "D'autres questions?"
+      titre: "Prenez contact",
+      p: "Je suis toujours ouverte à la collaboration et aux nouvelles opportunités. N'hésitez pas à me contacter."
     },
   
     en: {
-      adresse1: "3800 Sherbrooke Street East",
-      adresse2: "Montreal QC H1X 2A2",
-      joindre: "Contact Us",
-      portes: "Open day",
-      visite: "Virtual tour",
-      questions: "Any questions?"
+      titre: "Get in Touch",
+      p: "I'm always open to collaboration and new opportunities. Feel free to reach out."
     }
   }
   
