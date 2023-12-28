@@ -41,40 +41,30 @@ export const texteAccueil = {
     }
   };
   
-  // Menu Header
+  // Header
   export const texteHeader = {
     fr: {
-      sectionNav: {
+      sectionNavigation: {
         accueil: "Accueil",
         monProfil: "À propos de moi",
-        projets: "Projets étudiants",
-        prof: "Enseignants",
-        activite: "Activités",
-        futur: "Futur",
-        quiz: "Quiz",
-        college: "Collège de Maisonneuve",
-        texteEleve: "Un site web conçu par des étudiants pour des étudiants.",
+        mesProjets: "Portfolio",
+        contact: "Contact"
       }
       
     },
   
     en: {
-      sectionNav: {
+      sectionNavigation: {
         accueil: "Home",
         monProfil: "About me",
-        projets: "Student projects",
-        prof: "Teachers",
-        activite: "Activities",
-        futur: "Future",
-        quiz: "Quiz",
-        college: "Maisonneuve College",
-        texteEleve: "A website designed by students for students.",
+        mesProjets: "Portfolio",
+        contact: "Contact"
       }
       
     }
   }
   
-  // Menu Footer
+  // Footer
   export const texteFooter = {
     fr: {
       adresse1: "3800 Rue Sherbrooke Est",
