@@ -1,0 +1,95 @@
+.Accueil {
+    display: flex;
+    flex-direction: column;
+  
+    .accueil-section1 {
+      display: flex;
+      align-items: center;
+
+      .accueil-section1-texte {
+        position: absolute;
+        color: var(--couleur-texte);
+        display: flex;
+        flex-direction: column;
+        width: 90dvw;
+        padding: 5rem 5dvw 10rem 5dvw;
+  
+        @media screen and (min-width: 768px) {
+          width: 80dvw;
+          padding: 10rem 10dvw 15rem 10dvw;
+          text-align: center;
+        }
+  
+        @media screen and (min-width: 1200px) {
+          padding: 5rem 10dvw 15rem 10dvw;
+        }
+  
+        .animation-titre {
+          animation: animation-titre 1s 0.5s both;
+          padding-bottom: 1rem;
+  
+          @media screen and (min-width: 1600px) {
+            font-size: 3rem;
+          }
+        }
+  
+        @keyframes animation-titre {
+          0% {text-shadow:0 0 var(--couleur-principale),0 0 var(--couleur-principale),0 0 var(--couleur-principale),0 0 var(--couleur-principale),0 0 var(--couleur-principale),0 0 var(--couleur-principale),0 0 var(--couleur-principale),0 0 var(--couleur-principale);
+            transform:translateX(0) translateY(0)
+          }
+          100% {text-shadow:-1px 1px var(--couleur-principale),-2px 2px var(--couleur-principale),-3px 3px var(--couleur-principale),-4px 4px var(--couleur-principale),-5px 5px var(--couleur-principale),-6px 6px var(--couleur-principale),-7px 7px var(--couleur-principale),-8px 8px var(--couleur-principale);
+            transform:translateX(8px) translateY(-8px)
+          }
+        }
+      }
+  
+      .accueil-texte > p:nth-child(2) {
+        @media screen and (min-width: 1600px) {
+          font-size: 1.3rem;
+        }
+      }
+    }
+  
+    .accueil-section2, .accueil-section3, .accueil-section4 {
+      display: flex;
+      flex-direction: column;
+      width: 90dvw;
+      padding: 3rem 5dvw;
+      row-gap: 2rem;
+  
+      @media screen and (min-width: 1600px) {
+        padding: 5rem 5dvw;
+      }
+    }
+  
+    /*// SECTIONS AVEC BG DE COULEUR
+    .accueil-section-technologies {
+      padding: unset;
+      background-color: var(--couleur-fond-cours);
+      width: 100dvw;
+  
+      @media screen and (min-width: 1600px) {
+        padding: unset;
+      }
+    } */
+  
+    .accueil-section3 > h1:nth-child(1) {
+      padding: 3rem 5dvw;
+      padding-bottom: 0;
+    }
+
+    // SECTION 2 - Introduction
+    .accueil-section2 {
+      .accueil-texte-section2 {
+        display: flex;
+        flex-direction: column;
+        row-gap: 1rem;
+      }
+    }
+  
+    .accueil-section3 {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+    }
+}

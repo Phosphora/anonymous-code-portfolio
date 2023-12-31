@@ -1,4 +1,4 @@
-import axios from 'axios';
+/*import axios from 'axios';
 import { apiUrl } from './utility';
 
 export async function fetchPosts() {
@@ -9,4 +9,4 @@ export async function fetchPosts() {
     console.error(error);
     throw error;
   }
-}
+} */

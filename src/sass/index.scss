@@ -1,0 +1,165 @@
+// Les styles ici se trouvent à la racine du site web.
+// Ici se trouve aussi toutes nos variables root (racine).
+
+:root {
+
+    // Les couleurs
+    .theme-clair {
+
+      --couleur-principale: #84679E;
+      --couleur-secondaire: #CBAEC0;
+      --couleur-accent: #AF8394;
+      --couleur-fond: #FAF9FB;
+      --couleur-texte: #141019;
+      --couleur-hover: #Af83AA;
+      --couleur-fond-section: #F5F5F5;
+
+    }
+
+    .theme-sombre {
+
+      --couleur-principale: #7F6198;
+      --couleur-secondaire: #513446;
+      --couleur-accent: #7C5061;
+      --couleur-fond: #050406;
+      --couleur-texte: #EAE6EF;
+      --couleur-hover: #7C5077;
+      --couleur-fond-section: #303030;
+
+    }
+
+    // Les tailles des caractères
+    --taille-mobile-texte: 16px;
+    --taille-tablette-texte: 20px;
+    --taille-bureau-texte: 28px;
+  
+    --taille-mobile-titre: 34px;
+    --taille-tablette-titre: 44px;
+    --taille-bureau-titre: 54px;
+
+    // Les polices de caractères
+    --police-header: "Archivo Black", monospace;
+    --police-titre: "Didact Gothic", monospace;
+    --police-texte: "Source Code Pro", monospace;
+
+  }
+  
+  * {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    // color: var(--couleur-texte);
+    &::selection {
+      color: var(--couleur-texte);
+      background-color: var(--couleur-accent);
+    }
+    ::-webkit-scrollbar {
+      width: 0.5rem;
+    }
+  
+    ::-webkit-scrollbar-track {
+      background: var(--couleur-fond);
+    }
+  
+    ::-webkit-scrollbar-thumb {
+      background: var(--couleur-accent);
+    }
+    ::-webkit-scrollbar-thumb:hover, ::-webkit-scrollbar-thumb:active {
+      background: #9d5613;
+    }
+  }
+  
+  body, html {
+    font-family: var(--police-texte);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-color: var(--couleur-fond);
+  
+    overflow-x: hidden;
+    height: 100dvh;
+    position: relative;
+  
+    font-size: var(--taille-mobile-texte);
+  
+    @media screen and (min-width: 768px) {
+      font-size: var(--taille-tablette-texte);
+    }
+  
+    @media screen and (min-width: 992px) {
+      font-size: var(--taille-bureau-texte);
+    }
+  }
+  
+  h1 {
+    font-family: var(--police-header);
+  
+    font-size: var(--taille-mobile-titre);
+  
+    @media screen and (min-width: 768px) {
+      font-size: var(--taille-tablette-titre);
+    }
+  
+    @media screen and (min-width: 992px) {
+      font-size: var(--taille-bureau-titre);
+    }
+  }
+
+  section {
+    width: 100dvw;
+  }
+
+  li::marker {
+    color: var(--couleur-accent);;
+  
+    @media screen and (min-width: 768px) {
+      font-size: var(--taille-tablette-titre);
+    }
+  
+    @media screen and (min-width: 992px) {
+      font-size: var(--taille-bureau-titre);
+    }
+  }
+  
+  a {
+    color: #FFFFFF;
+    text-decoration: none;
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+  
+  .bouton {
+    background-color: var(--couleur-principale);
+    color: var(--couleur-texte-clair);
+    border: none;
+    border-radius: 0.1rem;
+    height: 5dvw;
+    width: 45dvw;
+    cursor: pointer;
+    display: flex;
+    flex-direction: unset;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+    text-decoration: none;
+    transition: background-color 100ms linear;
+  
+    &:hover {
+      background-color: var(--couleur-hover);
+      text-decoration: underline;
+    }
+  
+    @media screen and (min-width: 361px) {
+      // height: 5dvw;
+      width: 35dvw;
+    }
+  
+    @media screen and (min-width: 768px) {
+      width: 15dvw;
+    }
+  
+    @media screen and (min-width: 1200px) {
+      height: 3dvw;
+      width: 12dvw;
+    }
+  }
