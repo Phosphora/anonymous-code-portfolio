@@ -1,0 +1,79 @@
+// Les styles ici s'appliquent sur l'entête.
+
+.Entete {
+    overflow: hidden;
+    position: fixed;
+    z-index: 100;
+    padding: 20px 10px;
+
+    li {
+      list-style-type: none;
+      font-family: var(--police-header);
+      font-size: 1.5rem;
+      padding-top: 0.6rem;
+  
+      @media screen and (min-width: 768px) {
+        font-size: 1.4rem;
+      }
+  
+      @media screen and (min-width: 992px) {
+        font-size: 1rem;
+        padding-top:0.2rem;
+      }
+  
+      @media screen and (min-width: 1600px) and (min-height: 900px) {
+        font-size: 1.2rem;
+        
+      }
+    }
+
+      .Entete-block-nav {
+        background-color: var(--couleur-principale);
+        width: 90dvw;
+        padding: 0.5rem 5dvw;
+  
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+  
+        .entete-container-btn {
+          display: flex;
+          align-items: center;
+          gap: 1rem;
+  
+          user-select: none;
+  
+          button {
+            scale: 1;
+            transition: scale 150ms linear;
+            &:hover {
+              scale: 1.125;
+            }
+          }
+        }
+        
+      .entete-container-btn {
+        .btn-theme {
+          border: none;
+          background: none;
+          padding: 0;
+          cursor: pointer;
+          outline: none; 
+        }
+  
+        .btn-langue {
+          border: none;
+          background: none;
+          padding: 0;
+          cursor: pointer;
+          outline: none; 
+          font-family: var(--police-header);
+          color: #FFFFFF;
+        }
+      }
+    }
+
+    .nav-menu-container {
+      float: right;
+    }
+}

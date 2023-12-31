@@ -84,7 +84,7 @@ export default function App() {
 
         <Route exact path="/portfolio" element={< MesProjets posts={posts} langue={langue} toggleAside={toggleAside} setToggleAside={setToggleAside} />} ></Route> {/*Page Portfolio*/}
 
-        <Route exact path="/activites" element={< Contact posts={posts} langue={langue} toggleAside={toggleAside} setToggleAside={setToggleAside} />} ></Route> {/*Page Contact*/}
+        <Route exact path="/contact" element={< Contact posts={posts} langue={langue} toggleAside={toggleAside} setToggleAside={setToggleAside} />} ></Route> {/*Page Contact*/}
 
         {/* <Route path='*' element={< Page404 langue={langue} />} ></Route> */}
       </Routes>
