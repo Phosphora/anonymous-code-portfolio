@@ -8,8 +8,10 @@ import MonProfil from './MonProfil';
 import MesProjets from './MesProjets';
 import Contact from './Contact';
 // import Page404 from './Page404';
-import ScrollToTop, { scrollUp } from './ScrollToTop';
+import TitrePage from './TitrePage';
+import ScrollToTop, { scrollUp } from './HautDePage';
 import { Route, Routes } from 'react-router-dom';
+import ReactDOM from 'react-dom/client';
 
 export default function App() {
 
@@ -80,15 +82,15 @@ export default function App() {
 
         <Route exact path="/accueil" element={< Accueil langue={langue} />} ></Route> {/*Page d'accueil*/}
 
-        <Route exact path="/a-propos-de-moi" element={< MonProfil posts={posts} langue={langue} />} ></Route> {/*Page À propos de moi*/}
+        <Route exact path="/a-propos-de-moi" element={< MonProfil langue={langue} />} ></Route> {/*Page À propos de moi*/}
 
-        <Route exact path="/portfolio" element={< MesProjets posts={posts} langue={langue} toggleAside={toggleAside} setToggleAside={setToggleAside} />} ></Route> {/*Page Portfolio*/}
+        <Route exact path="/portfolio" element={< MesProjets langue={langue} />} ></Route> {/*Page Portfolio*/}
 
-        <Route exact path="/contact" element={< Contact posts={posts} langue={langue} toggleAside={toggleAside} setToggleAside={setToggleAside} />} ></Route> {/*Page Contact*/}
+        <Route exact path="/contact" element={< Contact langue={langue} />} ></Route> {/*Page Contact*/}
 
         {/* <Route path='*' element={< Page404 langue={langue} />} ></Route> */}
       </Routes>
-      <PiedDePage langue={langue} /> {/* Footer du site - Présent par défaut sur tous les pages qui suivent */}
+      {/*<PiedDePage langue={langue} /> {/* Footer du site - Présent par défaut sur tous les pages qui suivent */}
       <ScrollToTop />
     </div>
   );

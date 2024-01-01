@@ -1,11 +1,11 @@
-import '../Sass/Entete.scss'
+import '../sass/Entete.scss'
 import { Link } from "react-router-dom";
-import { texteHeader, texteHeader } from '../code/textes';
+import { texteHeader } from '../code/textes';
 import LightModeIcon from '@mui/icons-material/LightMode';
-import NightsStayIcon from '@mui/icons-material/NightsStay';
+import DarkModeIcon from '@mui/icons-material/DarkMode';
 import { yellow } from '@mui/material/colors';
 import { useState, useRef  } from 'react';
-import { scrollUp } from './ScrollToTop';
+import { scrollUp } from './HautDePage';
 
 
 export default function Entete({theme, setTheme, langue, setLangue}) {
@@ -43,7 +43,7 @@ export default function Entete({theme, setTheme, langue, setLangue}) {
                 : 'Click here to switch to light mode'
             }
             >{theme === 'clair' ?
-              <NightsStayIcon sx={{color: yellow[600]}} /> : <LightModeIcon sx={{color: yellow[800]}}/>}
+              <DarkModeIcon sx={{color: yellow[600]}} /> : <LightModeIcon sx={{color: yellow[800]}}/>}
             </button>
           </div>
             <li>

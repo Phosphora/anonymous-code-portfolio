@@ -4,7 +4,6 @@
     overflow: hidden;
     position: fixed;
     z-index: 100;
-    padding: 20px 10px;
 
     li {
       list-style-type: none;
@@ -23,7 +22,6 @@
   
       @media screen and (min-width: 1600px) and (min-height: 900px) {
         font-size: 1.2rem;
-        
       }
     }
 
@@ -65,15 +63,10 @@
           border: none;
           background: none;
           padding: 0;
-          cursor: pointer;
           outline: none; 
           font-family: var(--police-header);
           color: #FFFFFF;
         }
       }
-    }
-
-    .nav-menu-container {
-      float: right;
     }
 }

@@ -65,7 +65,7 @@
       background: var(--couleur-accent);
     }
     ::-webkit-scrollbar-thumb:hover, ::-webkit-scrollbar-thumb:active {
-      background: #9d5613;
+      background: #8C5A6D;
     }
   }
   
@@ -92,9 +92,8 @@
   
   h1 {
     font-family: var(--police-header);
-  
     font-size: var(--taille-mobile-titre);
-  
+
     @media screen and (min-width: 768px) {
       font-size: var(--taille-tablette-titre);
     }
@@ -102,6 +101,24 @@
     @media screen and (min-width: 992px) {
       font-size: var(--taille-bureau-titre);
     }
+  }
+
+  h2 {
+    font-family: var(--police-titre);
+    font-size: var(--taille-mobile-titre);
+    color: var(--couleur-secondaire);
+
+    @media screen and (min-width: 768px) {
+      font-size: var(--taille-tablette-titre);
+    }
+  
+    @media screen and (min-width: 992px) {
+      font-size: var(--taille-bureau-titre);
+    }
+  }
+
+  p {
+    color: var(--couleur-texte);
   }
 
   section {
@@ -130,7 +147,7 @@
   
   .bouton {
     background-color: var(--couleur-principale);
-    color: var(--couleur-texte-clair);
+    color: #FFFFFF;
     border: none;
     border-radius: 0.1rem;
     height: 5dvw;

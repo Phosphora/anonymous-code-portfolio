@@ -10,16 +10,16 @@ import { texteAccueil } from '../code/textes';
 export default function Accueil({langue}) {
   return (
     <main className='Accueil'>
-      {/* SECTION 1 - Bienvenue sur le site */}
+      {/* SECTION 1 - Bienvenue sur le site web */}
       <section className="accueil-section1">
         <div className="accueil-section1-texte">
-          <h1 className='animation-titre'>{texteAccueil[langue].section1.titre}</h1>
+          <h1>{texteAccueil[langue].section1.titre}</h1>
         </div>
       </section>
 
       {/* SECTION 2 - Introduction */}
       <section className="accueil-section2">
-        <h1>{texteAccueil[langue].section2.titre}</h1>
+        <h2>{texteAccueil[langue].section2.titre}</h2>
         <p>{texteAccueil[langue].section2.p}</p>
       </section>
 
@@ -31,13 +31,13 @@ export default function Accueil({langue}) {
 
       {/* SECTION 3 - Qu'est-ce qui me différencie des autres ? */}
       <section className="accueil-section3">
-        <h1>{texteAccueil[langue].section3.titre}</h1>
+        <h2>{texteAccueil[langue].section3.titre}</h2>
         <p>{texteAccueil[langue].section3.p}</p>
       </section>
 
       {/* SECTION 4 - Portfolio */}
       <section className="accueil-section4">
-        <h1>{texteAccueil[langue].section4.titre}</h1>
+        <h2>{texteAccueil[langue].section4.titre}</h2>
         <p>{texteAccueil[langue].section4.p}</p>
       </section>
     </main>
