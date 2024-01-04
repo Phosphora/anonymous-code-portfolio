@@ -4,6 +4,7 @@
   
     .accueil-section1 {
       display: flex;
+      flex-direction: column;
       align-items: center;
 
       .accueil-section1-texte {
@@ -11,17 +12,22 @@
         display: flex;
         flex-direction: column;
         width: 90dvw;
-        padding: 5rem 5dvw 10rem 5dvw;
+        padding: 5rem 5dvw 1rem 5dvw;
   
         @media screen and (min-width: 768px) {
           width: 80dvw;
-          padding: 10rem 10dvw 15rem 10dvw;
+          padding: 10rem 10dvw 0rem 10dvw;
           text-align: center;
         }
   
         @media screen and (min-width: 1200px) {
           padding: 5rem 10dvw 15rem 10dvw;
         }
+      }
+
+      .accueil-section1-image {
+        width: 50dvw;
+        height: auto;
       }
     }
 

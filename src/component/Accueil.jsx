@@ -1,6 +1,7 @@
 import '../sass/Accueil.scss'
 // import '../sass/Carrousel.scss'
 import { texteAccueil } from '../code/textes';
+import imgAccueilSection1 from '../medias/images/static/accueil-image1.png'
 // import { scrollUp } from './ScrollToTop';
 // import TechnoIcons from './TechnoIcons';
 // import Carrousel from './Carrousel';
@@ -15,6 +16,7 @@ export default function Accueil({langue}) {
         <div className="accueil-section1-texte">
           <h1>{texteAccueil[langue].section1.titre}</h1>
         </div>
+        <img className="accueil-section1-image" src={imgAccueilSection1} alt="" />
       </section>
 
       {/* SECTION 2 - Introduction */}
