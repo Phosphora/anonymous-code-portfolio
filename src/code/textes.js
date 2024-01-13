@@ -8,8 +8,9 @@ export const texteAccueil = {
       },
       section2: {
         titre: "Explorez la créativité, vivez l'innovation",
-        p: "Bonjour et bienvenue dans mon espace numérique, où la créativité rencontre la fonctionnalité, et l'innovation le design ! Je suis Winnie Li, une étudiante en multimédia. Si vous souhaitez en savoir plus sur moi, veuillez consulter la section de mon site web.",
-        lien: "À propos de moi"
+        p1: "Bonjour et bienvenue dans mon espace numérique, où la créativité rencontre la fonctionnalité, et l'innovation le design ! Je suis Winnie Li, une étudiante en multimédia. Si vous souhaitez en savoir plus sur moi, veuillez consulter la section",
+        lien: "À propos de moi",
+        p2: "de mon site web."
       },
       section3: {
         titre: "Qu'est-ce qui me différencie des autres ?",
@@ -17,7 +18,8 @@ export const texteAccueil = {
       },
       section4: {
         titre: "Explorer mes projets",
-        p: "Jetez un coup d'œil à mon portfolio pour découvrir une gamme variée de projets qui mettent en valeur mes compétences et ma créativité. Chaque projet témoigne de mon engagement en faveur de la qualité et de mon souci du détail."
+        p: "Jetez un coup d'œil à mon portfolio pour découvrir une gamme variée de projets qui mettent en valeur mes compétences et ma créativité. Chaque projet témoigne de mon engagement en faveur de la qualité et de mon souci du détail.",
+        lien: "Regarde mon portfolio !"
       }
     },
   
@@ -27,8 +29,9 @@ export const texteAccueil = {
       },
       section2: {
         titre: "Explore Creativity, Experience Innovation",
-        p: "Hello and welcome to my digital space, where creativity meets functionality, and innovation meets design! I'm Winnie Li, a multimedia student. If you'd like to know more about me, please visit the section of my website.",
-        lien: "About me"
+        p1: "Hello and welcome to my digital space, where creativity meets functionality, and innovation meets design! I'm Winnie Li, a multimedia student. If you'd like to know more about me, please visit the section",
+        lien: "About me",
+        p2: "of my website."
       },
       section3: {
         titre: "What Sets Me Apart?",
@@ -36,7 +39,8 @@ export const texteAccueil = {
       },
       section4: {
         titre: "Explore My Projects",
-        p: "Take a stroll through my portfolio to explore a diverse range of projects that showcase my skills and creativity. Each project is a testament to my commitment to quality and attention to detail."
+        p: "Take a stroll through my portfolio to explore a diverse range of projects that showcase my skills and creativity. Each project is a testament to my commitment to quality and attention to detail.",
+        lien: "See my portfolio!"
       }
     }
   };
@@ -47,7 +51,7 @@ export const texteHeader = {
     sectionNavigation: {
       accueil: "Accueil",
       monProfil: "À propos de moi",
-      mesProjets: "Portfolio",
+      monPortfolio: "Portfolio",
       contact: "Contact"
     }
   },
@@ -56,7 +60,7 @@ export const texteHeader = {
     sectionNavigation: {
       accueil: "Home",
       monProfil: "About me",
-      mesProjets: "Portfolio",
+      monPortfolio: "Portfolio",
       contact: "Contact"
     }
   }

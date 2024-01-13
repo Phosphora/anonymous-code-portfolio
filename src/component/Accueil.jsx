@@ -5,8 +5,6 @@ import imgAccueilSection1 from '../medias/images/static/accueil-image1.png'
 // import { scrollUp } from './ScrollToTop';
 // import TechnoIcons from './TechnoIcons';
 // import Carrousel from './Carrousel';
-// import { Reveal } from './RevealAnim';
-
 
 export default function Accueil({langue}) {
   return (
@@ -22,7 +20,7 @@ export default function Accueil({langue}) {
       {/* SECTION 2 - Introduction */}
       <section className="accueil-section2">
         <h2>{texteAccueil[langue].section2.titre}</h2>
-        <p>{texteAccueil[langue].section2.p}</p>
+        <p>{texteAccueil[langue].section2.p1}</p>
       </section>
 
       {/* SECTION 2.5 - Liste des technologies

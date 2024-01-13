@@ -43,53 +43,53 @@
     --police-texte: 'Quicksand', sans-serif;
 
   }
-  
+
   * {
     margin: 0;
     padding: 0;
     scroll-behavior: smooth;
-    // color: var(--couleur-texte);
+
     &::selection {
       color: var(--couleur-texte);
       background-color: var(--couleur-accent);
     }
+
     ::-webkit-scrollbar {
       width: 0.5rem;
     }
-  
+
     ::-webkit-scrollbar-track {
       background: var(--couleur-fond);
     }
-  
+
     ::-webkit-scrollbar-thumb {
       background: var(--couleur-accent);
     }
+
     ::-webkit-scrollbar-thumb:hover, ::-webkit-scrollbar-thumb:active {
       background: #8C5A6D;
     }
   }
-  
+
   body, html {
     font-family: var(--police-texte);
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     background-color: var(--couleur-fond);
-  
     overflow-x: hidden;
     height: 100dvh;
     position: relative;
-  
     font-size: var(--taille-mobile-texte);
-  
+
     @media screen and (min-width: 768px) {
       font-size: var(--taille-tablette-texte);
     }
-  
+
     @media screen and (min-width: 992px) {
       font-size: var(--taille-bureau-texte);
     }
   }
-  
+
   h1 {
     font-family: var(--police-header);
     font-size: var(--taille-mobile-titre);

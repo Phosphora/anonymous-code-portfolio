@@ -1,72 +1,200 @@
 // Les styles ici s'appliquent sur l'entête.
 
 .Entete {
-    overflow: hidden;
-    position: fixed;
-    z-index: 100;
+  overflow: hidden;
+  position: fixed;
+  z-index: 100;
 
-    li {
-      list-style-type: none;
-      font-family: var(--police-header);
-      font-size: 1.5rem;
-      padding-top: 0.6rem;
-  
+  li {
+    list-style-type: none;
+    font-family: var(--police-header);
+    font-size: 1.5rem;
+
+    @media screen and (min-width: 768px) {
+      font-size: 1rem;
+    }
+
+    @media screen and (min-width: 992px) {
+      font-size: 0.95rem;
+    }
+
+    @media screen and (min-width: 1600px) and (min-height: 900px) {
+      font-size: 1.2rem;
+    }
+  }
+
+  .Entete-block-nav {
+    background-color: var(--couleur-principale);
+    width: 90dvw;
+    padding: 0.5rem 5dvw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .large-screen-nav {
+      display: none;
+
+      ul {
+        list-style: none;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0;
+        padding: 0;
+
+        li {
+          margin-right: 2dvw;
+          margin-left: 2dvw;
+        }
+      }
+
       @media screen and (min-width: 768px) {
-        font-size: 1.4rem;
+        display: block;
       }
-  
-      @media screen and (min-width: 992px) {
-        font-size: 1rem;
-        padding-top:0.2rem;
-      }
-  
-      @media screen and (min-width: 1600px) and (min-height: 900px) {
-        font-size: 1.2rem;
+    }      
+
+    .entete-container-btn {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+      user-select: none;
+
+      button {
+        scale: 1;
+        transition: scale 150ms linear;
+        &:hover {
+          scale: 1.125;
+        }
       }
     }
 
-      .Entete-block-nav {
-        background-color: var(--couleur-principale);
-        width: 90dvw;
-        padding: 0.5rem 5dvw;
-  
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-  
-        .entete-container-btn {
-          display: flex;
-          align-items: center;
-          gap: 1rem;
-  
-          user-select: none;
-  
-          button {
-            scale: 1;
-            transition: scale 150ms linear;
-            &:hover {
-              scale: 1.125;
-            }
+    .logo-portfolio {
+      height: 3rem;
+      width: 3rem;
+      scale: 1;
+      transition: scale 150ms linear;
+
+      &:hover {
+        scale: 1.125;
+      }
+    }
+
+    .entete-container-btn {
+      .btn-theme {
+        border: none;
+        background: none;
+        padding: 0;
+        cursor: pointer;
+        outline: none; 
+      }
+
+      .btn-langue {
+        border: none;
+        background: none;
+        padding: 0;
+        cursor: pointer;
+        outline: none; 
+        font-family: var(--police-header);
+        color: #FFFFFF;
+      }
+
+      .entete-btn-burger {
+        cursor: pointer;
+        overflow: visible;
+
+        rect {
+          fill: #fff;
+          transition: opacity 0.3s, transform 0.3s;
+          transform-origin: center;
+        }
+
+        &.active {
+          rect:nth-child(2) {
+            opacity: 0;
+          }
+
+          rect:first-child {
+            transform: translateY(35%) translateX(-20%) rotate(45deg);
+          }
+
+          rect:last-child {
+            transform: translateY(35%) translateX(20%) rotate(-45deg);
           }
         }
-        
-      .entete-container-btn {
-        .btn-theme {
-          border: none;
-          background: none;
-          padding: 0;
-          cursor: pointer;
-          outline: none; 
-        }
-  
-        .btn-langue {
-          border: none;
-          background: none;
-          padding: 0;
-          outline: none; 
-          font-family: var(--police-header);
-          color: #FFFFFF;
+
+        @media screen and (min-width: 768px) {
+          display: none;
         }
       }
     }
+  }
+
+  /* Les options du menu navigation mobile *************************************/ 
+
+  .nav-menu-container {
+    &.active {
+      width: 100dvw;
+      height: 100dvh;
+      background-color: rgba(0, 0, 0, 0.5);
+    }
+
+    .nav-menu {
+      background-color: var(--couleur-principale);
+      width: 100dvw;
+      height: 100dvh;
+      float: right;
+      text-align: right;
+      position: fixed;
+      right: -100%;
+      transition: right 0.3s ease;
+
+      &.active {
+        right: 0;
+      }
+
+      .nav-menu-pages {
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+       align-items: center;
+       padding: 1rem 0;
+
+        li {
+          position: relative;
+          overflow: hidden;
+
+          &:nth-child(1) a { transition-delay: 0.1s; }
+          &:nth-child(2) a { transition-delay: 0.15s; }
+          &:nth-child(3) a { transition-delay: 0.2s; }
+          &:nth-child(4) a { transition-delay: 0.25s; }
+          &:nth-child(5) a { transition-delay: 0.3s; }
+          &:nth-child(6) a { transition-delay: 0.35s; }
+
+          a {
+            display: block;
+            transform: translateY(100%);
+            transition: transform 0.3s ease-in-out;
+          }
+
+          &.animate a {
+            transform: translateY(0);
+          }
+        }
+      }
+
+      @media screen and (min-width: 768px) {
+        display: none;
+        width: 50dvw;
+
+        .nav-menu-pages {
+          align-items: flex-end;
+          padding-right: 2rem;
+        }
+      }
+
+      @media screen and (min-width: 992px) {
+        width: 40dvw;
+      }
+    }
+  }
 }
