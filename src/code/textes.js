@@ -8,9 +8,9 @@ export const texteAccueil = {
       },
       section2: {
         titre: "Explorez la créativité, vivez l'innovation",
-        p1: "Bonjour et bienvenue dans mon espace numérique, où la créativité rencontre la fonctionnalité, et l'innovation le design ! Je suis Winnie Li, une étudiante en multimédia. Si vous souhaitez en savoir plus sur moi, veuillez consulter la section",
+        p1: "Bonjour et bienvenue dans mon espace numérique, où la créativité rencontre la fonctionnalité, et l'innovation le design ! Je suis Winnie Li, une étudiante en multimédia. Si vous souhaitez en savoir plus sur moi, veuillez consulter la section ",
         lien: "À propos de moi",
-        p2: "de mon site web."
+        p2: " de mon site web."
       },
       section3: {
         titre: "Qu'est-ce qui me différencie des autres ?",
@@ -18,8 +18,9 @@ export const texteAccueil = {
       },
       section4: {
         titre: "Explorer mes projets",
-        p: "Jetez un coup d'œil à mon portfolio pour découvrir une gamme variée de projets qui mettent en valeur mes compétences et ma créativité. Chaque projet témoigne de mon engagement en faveur de la qualité et de mon souci du détail.",
-        lien: "Regarde mon portfolio !"
+        p1: "Jetez un coup d'œil à ",
+        lien: "Mon Portfolio",
+        p2: " pour découvrir une gamme variée de projets qui mettent en valeur mes compétences et ma créativité. Chaque projet témoigne de mon engagement en faveur de la qualité et de mon souci du détail."
       }
     },
   
@@ -29,9 +30,9 @@ export const texteAccueil = {
       },
       section2: {
         titre: "Explore Creativity, Experience Innovation",
-        p1: "Hello and welcome to my digital space, where creativity meets functionality, and innovation meets design! I'm Winnie Li, a multimedia student. If you'd like to know more about me, please visit the section",
+        p1: "Hello and welcome to my digital space, where creativity meets functionality, and innovation meets design! I'm Winnie Li, a multimedia student. If you'd like to know more about me, please visit the ",
         lien: "About me",
-        p2: "of my website."
+        p2: " section of my website."
       },
       section3: {
         titre: "What Sets Me Apart?",
@@ -39,8 +40,9 @@ export const texteAccueil = {
       },
       section4: {
         titre: "Explore My Projects",
-        p: "Take a stroll through my portfolio to explore a diverse range of projects that showcase my skills and creativity. Each project is a testament to my commitment to quality and attention to detail.",
-        lien: "See my portfolio!"
+        p1: "Take a stroll through ",
+        lien: "My Portfolio",
+        p2: " to explore a diverse range of projects that showcase my skills and creativity. Each project is a testament to my commitment to quality and attention to detail."
       }
     }
   };

@@ -6,25 +6,25 @@
     // Les couleurs
     .theme-clair {
 
-      --couleur-principale: #84679E;
-      --couleur-secondaire: #CBAEC0;
-      --couleur-accent: #AF8394;
+      --couleur-principale: #88679E;
+      --couleur-secondaire: #AF8394;
+      --couleur-accent: #CBAEC0;
       --couleur-fond: #FAF9FB;
       --couleur-texte: #141019;
       --couleur-hover: #Af83AA;
-      --couleur-fond-section: #F5F5F5;
+      --couleur-fond-section: #D1C1CF;
 
     }
 
     .theme-sombre {
 
-      --couleur-principale: #7F6198;
-      --couleur-secondaire: #513446;
-      --couleur-accent: #7C5061;
+      --couleur-principale: #826198;
+      --couleur-secondaire: #7C5061;
+      --couleur-accent: #513446;
       --couleur-fond: #050406;
       --couleur-texte: #EAE6EF;
       --couleur-hover: #7C5077;
-      --couleur-fond-section: #303030;
+      --couleur-fond-section: #1F141B;
 
     }
 
@@ -126,7 +126,7 @@
   }
 
   li::marker {
-    color: var(--couleur-accent);;
+    color: var(--couleur-accent);
   
     @media screen and (min-width: 768px) {
       font-size: var(--taille-tablette-titre);
@@ -144,14 +144,14 @@
       text-decoration: underline;
     }
   }
-  
+
   .bouton {
     background-color: var(--couleur-principale);
     color: #FFFFFF;
     border: none;
     border-radius: 0.1rem;
     height: 5dvw;
-    width: 45dvw;
+    width: 55dvw;
     cursor: pointer;
     display: flex;
     flex-direction: unset;
@@ -165,18 +165,33 @@
       background-color: var(--couleur-hover);
       text-decoration: underline;
     }
-  
+
     @media screen and (min-width: 361px) {
-      // height: 5dvw;
-      width: 35dvw;
+      width: 24dvw;
     }
-  
+
     @media screen and (min-width: 768px) {
-      width: 15dvw;
+      width: 22dvw;
     }
-  
+
     @media screen and (min-width: 1200px) {
       height: 3dvw;
       width: 12dvw;
+    }
+  }
+
+  .bouton-bg-seulement {
+    background-color: var(--couleur-principale);
+    color: #FFFFFF;
+    border: none;
+    border-radius: 0.1rem;
+    cursor: pointer;
+    padding: 0.1rem;
+    text-decoration: none;
+    transition: background-color 100ms linear;
+  
+    &:hover {
+      background-color: var(--couleur-hover);
+      text-decoration: underline;
     }
   }
