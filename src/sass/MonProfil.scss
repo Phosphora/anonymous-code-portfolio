@@ -1,0 +1,75 @@
+.MonProfil {
+    display: flex;
+    flex-direction: column;
+
+    // Section 1 (Introduction)
+    .introduction {
+        width: 90dvw;
+        padding: 11dvh 5dvw;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding-bottom: 2rem;
+
+        .texte-introduction {
+            margin: 0 auto;
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+
+            h1 {
+                font-size: 1.6rem;
+                color: var(--couleur-principale);
+                padding-top: 1rem;
+            }
+        }
+
+        .dessin-profil {
+            flex: 1;
+            width: 100%;
+            height: auto;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding-top: 2rem;
+            margin-bottom: 2rem;
+            pointer-events: none;
+
+            img {
+                border-radius: 0.2rem;
+                max-width: 50%;
+                max-height: 50%;
+                object-fit: contain;
+            }
+        }
+
+        @media screen and (min-width: 992px) {
+            flex-direction: row;
+            text-align: left;
+
+            .texte-introduction {
+                font-size: 1.2rem;
+            }
+
+            .dessin-profil {
+                padding-top: 4rem;
+
+                img {
+                    max-width: 95%;
+                    max-height: 95%;
+                    margin-left: 4rem;
+                }
+            }
+        }
+
+        @media screen and (min-width: 1600px) {
+            .dessin-profil {
+                img {
+                    max-width: 95%;
+                    max-height: 95%;
+                }
+            }
+        }
+    }
+}
