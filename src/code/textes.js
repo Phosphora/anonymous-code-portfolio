@@ -97,28 +97,29 @@ export const texteMonProfil = {
   fr: {
     section1: {
       titre: "À propos de moi",
-      nom: "Nom : Winnie Li",
-      alias: "Alias : Phosphora",
-      age: "Âge : 19 ans"
+      nom: "Nom : Winnie Li"
     },
     section2: {
+      titre: "Permettez-moi de me présenter…"
+    },
+    section3: {
       titre: "Ce que j'apporte à la table :"
     },
-    section3: {},
     section4: {}
   },
   
   en: {
     section1: {
       titre: "About me",
-      nom: "Name : Winnie Li",
-      alias: "Alias : Phosphora",
-      age: "Age : 19 years old"
+      nom: "Name : Winnie Li"
     },
     section2: {
+      titre: "Allow me to introduce myself...",
+      p: "Hi there!"
+    },
+    section3: {
       titre: "What I Bring to the Table:"
     },
-    section3: {},
     section4: {}
   }
 }

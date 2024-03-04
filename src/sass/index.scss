@@ -1,30 +1,32 @@
 // Les styles ici se trouvent à la racine du site web.
-// Ici se trouve aussi toutes nos variables root (racine).
+// Ici se trouve aussi toutes mes variables root (racine).
 
 :root {
 
     // Les couleurs
     .theme-clair {
 
-      --couleur-principale: #88679E;
-      --couleur-secondaire: #AF8394;
-      --couleur-accent: #CBAEC0;
-      --couleur-fond: #FAF9FB;
-      --couleur-texte: #141019;
+      --couleur-principale: #A296CA;
+      --couleur-secondaire: #4A1C44;
+      --couleur-accent: #EFDCDF;
+      --couleur-fond: #B9B8C6;
+      --couleur-texte: #1C161D;
       --couleur-hover: #Af83AA;
-      --couleur-fond-section: #D1C1CF;
+      --couleur-fond-section-accueil: #D1C1CF;
+      --couleur-fond-section: #F3F0FF;
 
     }
 
     .theme-sombre {
 
-      --couleur-principale: #826198;
-      --couleur-secondaire: #7C5061;
-      --couleur-accent: #513446;
-      --couleur-fond: #050406;
-      --couleur-texte: #EAE6EF;
+      --couleur-principale: #413569;
+      --couleur-secondaire: #E3B5DD;
+      --couleur-accent: #231013;
+      --couleur-fond: #3A3947;
+      --couleur-texte: #E8E2E9;
       --couleur-hover: #7C5077;
-      --couleur-fond-section: #1F141B;
+      --couleur-fond-section-accueil: #251820;
+      --couleur-fond-section: #282437;
 
     }
 
@@ -37,12 +39,7 @@
     --taille-tablette-titre: 44px;
     --taille-bureau-titre: 54px;
 
-    // Les polices de caractères
-    --police-header: 'Poppins', sans-serif;
-    --police-titre: 'Comfortaa', sans-serif;
-    --police-texte: 'Quicksand', sans-serif;
-
-  }
+}
 
   * {
     margin: 0;
@@ -59,7 +56,7 @@
     }
 
     ::-webkit-scrollbar-track {
-      background: var(--couleur-fond);
+      background: var(--couleur-secondaire);
     }
 
     ::-webkit-scrollbar-thumb {
@@ -72,7 +69,10 @@
   }
 
   body, html {
-    font-family: var(--police-texte);
+    font-family: "Quicksand", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     background-color: var(--couleur-fond);
@@ -91,7 +91,9 @@
   }
 
   h1 {
-    font-family: var(--police-header);
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+    font-style: normal;
     font-size: var(--taille-mobile-titre);
 
     @media screen and (min-width: 768px) {
@@ -104,7 +106,9 @@
   }
 
   h2 {
-    font-family: var(--police-titre);
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
     font-size: var(--taille-mobile-titre);
     color: var(--couleur-secondaire);
 
@@ -138,6 +142,9 @@
   }
   
   a {
+    font-family: "Space Mono", monospace;
+    font-weight: 400;
+    font-style: normal;
     color: #FFFFFF;
     text-decoration: none;
     &:hover {
