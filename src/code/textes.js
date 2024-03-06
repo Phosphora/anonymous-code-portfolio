@@ -4,7 +4,8 @@
 export const texteAccueil = {
     fr: {
       section1: {
-        titre: "Bienvenue à la vitrine multimédia de Winnie Li"
+        titre1: "Bienvenue à la vitrine",
+        titre2: "multimédia de Winnie Li"
       },
       section2: {
         titre: "Explorez la créativité, vivez l'innovation",
@@ -26,7 +27,8 @@ export const texteAccueil = {
   
     en: {
       section1: {
-        titre: "Welcome to Winnie Li's multimedia showcase"
+        titre1: "Welcome to Winnie Li's",
+        titre2: "multimedia showcase"
       },
       section2: {
         titre: "Explore Creativity, Experience Innovation",

@@ -2,6 +2,7 @@ import '../sass/Accueil.scss'
 // import '../sass/Carrousel.scss'
 import { texteAccueil } from '../code/textes';
 import { Link } from "react-router-dom";
+import ConstellationEtoiles from '../code/ConstellationEtoiles';
 // import { scrollUp } from './ScrollToTop';
 // import TechnoIcons from './TechnoIcons';
 // import Carrousel from './Carrousel';
@@ -11,9 +12,13 @@ export default function Accueil({langue}) {
     <main className='Accueil'>
       {/* SECTION 1 - Bienvenue sur le site web */}
       <section className="accueil-section1">
-        <div className="accueil-section1-texte">
-          <h1>{texteAccueil[langue].section1.titre}</h1>
-        </div>
+        <svg width="100%" height="50%">
+          <text x="50%" y="5%" text-anchor="middle" alignment-baseline="middle">
+            <tspan x="50%" dy="2.44rem">{texteAccueil[langue].section1.titre1}</tspan>
+            <tspan x="50%" dy="2.44rem">{texteAccueil[langue].section1.titre2}</tspan>
+          </text>
+        </svg>
+        <ConstellationEtoiles/>
       </section>
 
       <div className="conteneur-section">
