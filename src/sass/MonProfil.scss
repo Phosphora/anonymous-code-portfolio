@@ -2,6 +2,11 @@
     display: flex;
     flex-direction: column;
 
+    @media screen and (min-width: 992px) {
+        flex-direction: row;
+        text-align: left;
+    }
+
     // Section 1 (Introduction)
     .introduction {
         width: 90dvw;
@@ -17,7 +22,10 @@
             flex: 1;
             display: flex;
             flex-direction: column;
-            justify-content: center;
+
+            @media screen and (min-width: 992px) {
+                font-size: 1.2rem;
+            }
 
             h1 {
                 font-size: 1.6rem;
@@ -37,40 +45,35 @@
             margin-bottom: 2rem;
             pointer-events: none;
 
+            @media screen and (min-width: 992px) {
+                padding-top: 4rem;
+            }
+
             img {
                 border-radius: 0.2rem;
                 max-width: 50%;
                 max-height: 50%;
                 object-fit: contain;
-            }
-        }
 
-        @media screen and (min-width: 992px) {
-            flex-direction: row;
-            text-align: left;
-
-            .texte-introduction {
-                font-size: 1.2rem;
-            }
-
-            .dessin-profil {
-                padding-top: 4rem;
-
-                img {
+                @media screen and (min-width: 992px) {
                     max-width: 95%;
                     max-height: 95%;
                     margin-left: 4rem;
                 }
             }
         }
+    }
 
+    .profil-section2, .profil-section3 {
+        display: flex;
+        flex-direction: column;
+        border-radius: 1rem;
+        width: 75dvw;
+        padding: 3rem 5dvw;
+        row-gap: 2rem;
+  
         @media screen and (min-width: 1600px) {
-            .dessin-profil {
-                img {
-                    max-width: 95%;
-                    max-height: 95%;
-                }
-            }
+          padding: 5rem 5dvw;
         }
     }
 }

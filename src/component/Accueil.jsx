@@ -13,9 +13,9 @@ export default function Accueil({langue}) {
       {/* SECTION 1 - Bienvenue sur le site web */}
       <section className="accueil-section1">
         <svg width="100%" height="50%">
-          <text x="50%" y="5%" text-anchor="middle" alignment-baseline="middle">
-            <tspan x="50%" dy="2.44rem">{texteAccueil[langue].section1.titre1}</tspan>
-            <tspan x="50%" dy="2.44rem">{texteAccueil[langue].section1.titre2}</tspan>
+          <text x="50%" y="5%" textAnchor="middle" alignmentBaseline="middle">
+            <tspan x="50%" dy="1.5em">{texteAccueil[langue].section1.titre1}</tspan>
+            <tspan x="50%" dy="1.5em">{texteAccueil[langue].section1.titre2}</tspan>
           </text>
         </svg>
         <ConstellationEtoiles/>

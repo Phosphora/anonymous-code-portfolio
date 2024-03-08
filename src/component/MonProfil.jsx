@@ -20,13 +20,13 @@ export default function MonProfil({langue}) {
       </section>
       {/* SECTION 2 - Présentation de soi-même */}
       <section className="profil-section2">
-        <div className="texte-profil-section2">
+        <div className="profil-section2-texte">
           <h1>{texteMonProfil[langue].section2.titre}</h1>
         </div>
       </section>
       {/* SECTION 3 - Ce que j'apporte à la table */}
       <section className="profil-section3">
-        <div className="texte-profil-section3">
+        <div className="profil-section3-texte">
           <h1>{texteMonProfil[langue].section3.titre}</h1>
         </div>
       </section>
