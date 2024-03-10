@@ -1,5 +1,4 @@
 import { useEffect, useState } from 'react';
-import { fetchPosts } from '../code/wpfetch';
 import '../sass/App.scss';
 import Entete from './Entete';
 import PiedDePage from './PiedDePage';
@@ -14,7 +13,6 @@ import { Route, Routes } from 'react-router-dom';
 import ReactDOM from 'react-dom/client';
 
 export default function App() {
-
   const [posts, setPosts] = useState([]);
   const [theme, setTheme] = useState(() => {
     const themeSauvegarde = localStorage.getItem('theme-clair-ou-sombre');
@@ -37,14 +35,6 @@ export default function App() {
       return "fr";
     }
   });
-
-  useEffect(() => {
-    async function fetchData() {
-      const data = await fetchPosts();
-      setPosts(data);
-    }
-    fetchData();
-  }, []);
 
   useEffect(() => {
     localStorage.setItem('theme-clair-ou-sombre', theme);
