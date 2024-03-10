@@ -99,10 +99,10 @@ export const texteMonProfil = {
   fr: {
     section1: {
       titre: "À propos de moi",
-      nom: "Nom : Winnie Li"
     },
     section2: {
-      titre: "Permettez-moi de me présenter…"
+      titre: "Permettez-moi de me présenter…",
+      p: "Eh bien, bonjour à vous ! Je m'appelle Winnie Li et je suis une étudiante en multimédia passionnée qui souhaite ardemment devenir une développeuse web full-stack. Profondément fascinée par le monde dynamique de la technologie et de la créativité, je m'engage à maîtriser l'art du codage et de la conception pour créer des expériences numériques immersives."
     },
     section3: {
       titre: "Ce que j'apporte à la table :"
@@ -113,11 +113,10 @@ export const texteMonProfil = {
   en: {
     section1: {
       titre: "About me",
-      nom: "Name : Winnie Li"
     },
     section2: {
       titre: "Allow me to introduce myself...",
-      p: "Hi there!"
+      p: "Well, hello there! My name is Winnie Li and I am a passionate multimedia student with a fervent desire to become a full-stack web developer. As someone deeply fascinated by the dynamic world of technology and creativity, I am committed to mastering the art of coding and design to create immersive digital experiences."
     },
     section3: {
       titre: "What I Bring to the Table:"

@@ -14,7 +14,7 @@
       --couleur-hover: #Af83AA;
       --couleur-fond-section-accueil: #D1C1CF;
       --couleur-fond-section: #F3F0FF;
-      --couleur-stroke: #6955aa;
+      --couleur-stroke: #6955AA;
 
     }
 
@@ -28,7 +28,7 @@
       --couleur-hover: #7C5077;
       --couleur-fond-section-accueil: #251820;
       --couleur-fond-section: #282437;
-      --couleur-stroke: #a599cc;
+      --couleur-stroke: #A599CC;
 
     }
 
@@ -204,3 +204,16 @@
       text-decoration: underline;
     }
   }
+
+.fade-in {
+  animation: fadeInAnimation ease-in 0.5s;
+
+  @keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+  }
+}
