@@ -105,7 +105,11 @@ export const texteMonProfil = {
       p: "Eh bien, bonjour à vous ! Je m'appelle Winnie Li et je suis une étudiante en multimédia passionnée qui souhaite ardemment devenir une développeuse web full-stack. Profondément fascinée par le monde dynamique de la technologie et de la créativité, je m'engage à maîtriser l'art du codage et de la conception pour créer des expériences numériques immersives."
     },
     section3: {
-      titre: "Ce que j'apporte à la table :"
+      titre: "Ce que j'apporte à la table :",
+      li1: "L'innovation : Je m'épanouis en repoussant les limites de la créativité et en adoptant les nouvelles technologies pour donner vie à des idées fraîches et novatrices.",
+      li2: "La collaboration : Chaque projet est le fruit d'une collaboration. J'accorde de l'importance à une communication ouverte, au retour des informations et au travail d'équipe afin d'assurer la réussite de chaque projet.",
+      li3: "La résolution de problèmes : J'adore relever des défis et trouver des solutions innovantes. Qu'il s'agisse de dépanner du code ou d'optimiser les performances, je suis toujours partant pour une bonne séance de résolution de problèmes.",
+      li4: "Approche logique du codage : J'aborde le codage avec un état d'esprit logique, en veillant à ce que mes solutions soient non seulement fonctionnelles, mais aussi efficaces et faciles à maintenir. Je crois en l'écriture d'un code propre et élégant qui résiste à l'épreuve du temps."
     },
     section4: {}
   },
@@ -119,7 +123,11 @@ export const texteMonProfil = {
       p: "Well, hello there! My name is Winnie Li and I am a passionate multimedia student with a fervent desire to become a full-stack web developer. As someone deeply fascinated by the dynamic world of technology and creativity, I am committed to mastering the art of coding and design to create immersive digital experiences."
     },
     section3: {
-      titre: "What I Bring to the Table:"
+      titre: "What I Bring to the Table:",
+      li1: "Innovation: I thrive on pushing creative boundaries and embracing new technologies to bring fresh and innovative ideas to life.",
+      li2: "Collaboration: Every project is a collaborative journey. I value open communication, feedback, and teamwork to ensure the success of each endeavor.",
+      li3: "Problem solving: I love challenges and finding innovative solutions. Whether it's troubleshooting code or optimizing performance, I'm always up for a good problem-solving session.",
+      li4: "Logical Coding Approach: I approach coding with a logical mindset, ensuring that my solutions are not just functional but also efficient and maintainable. I believe in writing clean and elegant code that stands the test of time."
     },
     section4: {}
   }

@@ -3,7 +3,6 @@ import '../sass/MonProfil.scss'
 import { texteMonProfil } from '../code/textes';
 import dessinProfil from '../medias/images/static/photo-profil.png';
 import imageProfilSection2 from '../medias/images/static/image-profil-section2.png';
-// import { scrollUp } from './ScrollToTop';
 // import TechnoIcons from './TechnoIcons';
 // import Carrousel from './Carrousel';
 
@@ -33,6 +32,12 @@ export default function MonProfil({langue}) {
       <section className="profil-section3">
         <div className="profil-section3-texte">
           <h2>{texteMonProfil[langue].section3.titre}</h2>
+          <ul>
+            <li>{texteMonProfil[langue].section3.li1}</li>
+            <li>{texteMonProfil[langue].section3.li2}</li>
+            <li>{texteMonProfil[langue].section3.li3}</li>
+            <li>{texteMonProfil[langue].section3.li4}</li>
+          </ul>
         </div>
         <div className="profil-section3-image">
         <svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">

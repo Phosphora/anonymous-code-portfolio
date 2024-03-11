@@ -131,18 +131,14 @@
     width: 100dvw;
   }
 
+  li {
+    color: var(--couleur-texte);
+  }
+
   li::marker {
     color: var(--couleur-accent);
-  
-    @media screen and (min-width: 768px) {
-      font-size: var(--taille-tablette-titre);
-    }
-  
-    @media screen and (min-width: 992px) {
-      font-size: var(--taille-bureau-titre);
-    }
   }
-  
+
   a {
     font-family: "Space Mono", monospace;
     font-weight: 400;
