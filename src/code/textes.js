@@ -137,10 +137,8 @@ export const texteMonProfil = {
 export const textePortfolio = {
   fr: {
     section1: {
-      titre1: "Projets étudiants",
-      titre2: "Décrouvez l'incroyable créativité de nos étudiants à travers une vitrine de",
-      span: "projets captivants.",
-      titre3: "Explorez des réalisations exceptionnelles et plongez dans l'univers du TIM."
+      titre: "Porfolio",
+      p: "Tout au long de mon parcours scolaire, j'ai eu l'occasion de travailler sur divers projets qui ont élargi mes compétences et m'ont permis d'explorer le paysage en constante évolution du multimédia. De la conception de graphiques visuellement attrayants au développement de sites web interactifs, chaque projet a été un tremplin dans ma croissance en tant que professionnel du multimédia. Voici mon parcours jusqu'à présent."
     },
   
     section2: {
@@ -157,10 +155,8 @@ export const textePortfolio = {
   
   en: {
     section1: {
-      titre1: "Student projects",
-      titre2: "Discover the incredible creativity of our students through a showcase of",
-      span: "captivating projects.",
-      titre3: "Explore exceptional achievements and immerse yourself in the world of TIM."
+      titre: "Portfolio",
+      p: "Throughout my academic journey, I have had the opportunity to work on diverse projects that have expanded my skill set and allowed me to explore the ever-evolving landscape of multimedia. From designing visually appealing graphics to developing interactive websites, each project has been a stepping stone in my growth as a multimedia professional. This is my journey so far."
     },
   
     section2: {
