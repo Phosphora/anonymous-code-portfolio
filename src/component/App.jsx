@@ -4,7 +4,7 @@ import Entete from './Entete';
 import PiedDePage from './PiedDePage';
 import Accueil from './Accueil';
 import MonProfil from './MonProfil';
-import MesProjets from './MesProjets';
+import Portfolio from './Portfolio';
 import Contact from './Contact';
 // import Page404 from './Page404';
 import TitrePage from './TitrePage';
@@ -74,7 +74,7 @@ export default function App() {
 
         <Route exact path="/a-propos-de-moi" element={< MonProfil langue={langue} />} ></Route> {/*Page À propos de moi*/}
 
-        <Route exact path="/portfolio" element={< MesProjets langue={langue} />} ></Route> {/*Page Portfolio*/}
+        <Route exact path="/portfolio" element={< Portfolio langue={langue} />} ></Route> {/*Page Portfolio*/}
 
         <Route exact path="/contact" element={< Contact langue={langue} />} ></Route> {/*Page Contact*/}
 
