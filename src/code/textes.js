@@ -142,14 +142,18 @@ export const textePortfolio = {
     },
   
     section2: {
-      p: "Filtrer par : ",
+      filtreTexte: "Filtrer par : ",
       filtreOptions: {
         filtreOption1: "Tout",
         filtreOption2: "Jeux",
         filtreOption3: "Web",
         filtreOption4: "Création",
         filtreOption5: "Conception",
-      }
+      },
+      btnTexte: "Plus de détails",
+      titreProjet1: "Projet Web en Équipe",
+      courteDescriptionProjet1: "Site Web du TIM Maisonneuve réalisé lors du cours de Projet Web en Équipe par Shawn Roggero, Kevin Kuch, Ling Yin Kong, Christophe Leam-Touch et Winnie Li (Moi).",
+      longueDescriptionProjet1: ""
     }
   },
   
@@ -160,14 +164,18 @@ export const textePortfolio = {
     },
   
     section2: {
-      p: "Filter by : ",
+      filtreTexte: "Filter by : ",
       filtreOptions: {
         filtreOption1: "All",
         filtreOption2: "Games",
         filtreOption3: "Web",
         filtreOption4: "Creation",
         filtreOption5: "Design",
-      }
+      },
+      btnTexte: "More details",
+      titreProjet1: "Team Web Project",
+      courteDescriptionProjet1: "TIM Maisonneuve website created during the Team Web Project course by Shawn Roggero, Kevin Kuch, Ling Yin Kong, Christophe Leam-Touch and Winnie Li (Me).",
+      longueDescriptionProjet1: ""
     }
   }
 }
