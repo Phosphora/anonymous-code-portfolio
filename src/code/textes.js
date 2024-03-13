@@ -153,7 +153,13 @@ export const textePortfolio = {
       btnTexte: "Plus de détails",
       titreProjet1: "Projet Web en Équipe",
       courteDescriptionProjet1: "Site Web du TIM Maisonneuve réalisé lors du cours de Projet Web en Équipe par Shawn Roggero, Kevin Kuch, Ling Yin Kong, Christophe Leam-Touch et Winnie Li (Moi).",
-      longueDescriptionProjet1: ""
+      longueDescriptionProjet1: "",
+      titreProjet2: "Création de Jeu en Équipe",
+      courteDescriptionProjet2: "Jeu réalisé lors du cours de Création de Jeu en Équipe par Stéphanie Guerrier, Winnie Li (Moi), Moumy Ndiaye et Djenah Tattegrain.",
+      longueDescriptionProjet2: "",
+      titreProjet3: "Mon Meilleur Personnage",
+      courteDescriptionProjet3: "Un personnage que j'ai dessiné dans un style manga.",
+      longueDescriptionProjet3: ""
     }
   },
   
@@ -175,7 +181,13 @@ export const textePortfolio = {
       btnTexte: "More details",
       titreProjet1: "Team Web Project",
       courteDescriptionProjet1: "TIM Maisonneuve website created during the Team Web Project course by Shawn Roggero, Kevin Kuch, Ling Yin Kong, Christophe Leam-Touch and Winnie Li (Me).",
-      longueDescriptionProjet1: ""
+      longueDescriptionProjet1: "",
+      titreProjet2: "Team Game Creation",
+      courteDescriptionProjet2: "Game created during the Team Game Creation course by Stéphanie Guerrier, Winnie Li (Me), Moumy Ndiaye and Djenah Tattegrain.",
+      longueDescriptionProjet2: "",
+      titreProjet3: "My Best Character",
+      courteDescriptionProjet3: "A character I drew in a manga-like style.",
+      longueDescriptionProjet3: ""
     }
   }
 }

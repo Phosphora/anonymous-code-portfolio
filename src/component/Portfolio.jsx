@@ -1,7 +1,9 @@
 import '../sass/Portfolio.scss';
 import React, { useEffect, useState } from 'react';
 import { textePortfolio } from '../code/textes';
-import imageProjet1 from '../medias/images/static/image1-projet1.png';
+import image1Projet1 from '../medias/images/static/image1-projet1.png';
+import image1Projet2 from '../medias/images/static/image1-projet2.png';
+import image1Projet3 from '../medias/images/static/image1-projet3.png';
 
 export default function MesProjets({langue}) {
   return (
@@ -30,7 +32,7 @@ export default function MesProjets({langue}) {
                 <h2>{textePortfolio[langue].section2.titreProjet1}</h2>
               </div>
               <div class="card-img">
-                <img src={imageProjet1} alt="Capture d'écran de la page d'accueil d'un site web"/>
+                <img src={image1Projet1} alt="Capture d'écran de la page d'accueil d'un site web"/>
               </div>
               <div class="card-content">
                 <p>{textePortfolio[langue].section2.courteDescriptionProjet1}</p>
@@ -40,49 +42,35 @@ export default function MesProjets({langue}) {
               </div>
             </div>
             <div class="card card-brutalism">
-        <div class="card-header">
-          <h2>Title card 2</h2>
+              <div class="card-header">
+                <h2>{textePortfolio[langue].section2.titreProjet2}</h2>
+              </div>
+              <div class="card-img">
+                <img src={image1Projet2} alt="Capture d'écran de l'écran de démarrage d'un jeu"/>
+              </div>
+              <div class="card-content">
+                <p>{textePortfolio[langue].section2.courteDescriptionProjet2}</p>
+                <div class="btn-link">
+                  <a href="#" class="btn">{textePortfolio[langue].section2.btnTexte}</a>
+                </div>
+              </div>
+            </div>
+            <div class="card card-brutalism">
+              <div class="card-header">
+                <h2>{textePortfolio[langue].section2.titreProjet3}</h2>
+              </div>
+              <div class="card-img">
+                <img src={image1Projet3} alt="Dessin d'un personnage"/>
+              </div>
+              <div class="card-content">
+                <p>{textePortfolio[langue].section2.courteDescriptionProjet3}</p>
+                <div class="btn-link">
+                  <a href="#" class="btn">{textePortfolio[langue].section2.btnTexte}</a>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
-        <div class="card-img">
-          <img src="https://images.pexels.com/photos/4195322/pexels-photo-4195322.jpeg" alt="image card 2"/>
-        </div>
-        <div class="card-content">
-          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Mollitia, impedit distinctio alias doloribus et dolorem vel illo!</p>
-          <div class="btn-link">
-            <a href="#" class="btn">{textePortfolio[langue].section2.btnTexte}</a>
-          </div> 
-        </div>
-      </div>
-      <div class="card card-brutalism">
-        <div class="card-header">
-          <h2>Title card 3</h2>
-        </div>
-        <div class="card-img">
-          <img src="https://images.pexels.com/photos/4203098/pexels-photo-4203098.jpeg" alt="image card 3"/>
-        </div>
-        <div class="card-content">
-          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Mollitia, impedit distinctio alias doloribus et dolorem vel illo!</p>
-          <div class="btn-link">
-            <a href="#" class="btn">{textePortfolio[langue].section2.btnTexte}</a>
-          </div> 
-        </div>
-      </div>
-      <div class="card card-brutalism">
-        <div class="card-header">
-          <h2>Title card 4</h2>
-        </div>
-        <div class="card-img">
-          <img src="https://images.pexels.com/photos/4202321/pexels-photo-4202321.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="image card 4"/>
-        </div>
-        <div class="card-content">
-          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Mollitia, impedit distinctio alias doloribus et dolorem vel illo!</p>
-          <div class="btn-link">
-            <a href="#" class="btn">{textePortfolio[langue].section2.btnTexte}</a>
-          </div> 
-        </div>
-      </div>
-    </div>
-  </div>
       </section>
     </main>
   );
