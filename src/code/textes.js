@@ -191,6 +191,31 @@ export const textePortfolio = {
     }
   }
 }
+
+// Page Contact
+export const texteContact = {
+  fr: {
+    section1: {
+      titre: "Contact",
+      p: "Je poursuis un parcours d'apprentissage et de croissance continus et je me réjouis des possibilités qui s'offrent à moi. Je crois au pouvoir de la collaboration et à la synergie qui naît du partage de la créativité et des connaissances. Si vous avez des questions, veuillez utiliser le formulaire de contact ci-dessous."
+    },
+
+    section2: {
+      titre: "Formulaire de contact"
+    }
+  },
+  
+  en: {
+    section1: {
+      titre: "Contact",
+      p: "I'm on a journey of continuous learning and growth, and look forward to the opportunities that lie ahead. I believe in the power of collaboration and the synergy that comes from sharing creativity and knowledge. If you have any questions, please use the contact form below."
+    },
+
+    section2: {
+      titre: "Contact form"
+    }
+  }
+}
   
 // Page 404 (Page d'erreur)
 export const texteErreur = {
