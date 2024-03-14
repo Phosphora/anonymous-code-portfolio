@@ -221,11 +221,13 @@ export const texteContact = {
 export const texteErreur = {
   fr: {
     titre: "ERREUR 404 - Page non trouvée",
-    message: "Il me semble que vous vous soyez laissé submerger par toutes sortes d'alternatives..."
+    message: "Vous semblez perdus... Pourquoi ne pas essayer l'une des options ci-dessous ?",
+    titreNavigation: "Faites votre choix"
   },
   
   en: {
     titre: "ERROR 404 - Page not found",
-    message: "It seems that you've let yourself be submerged by all sorts of alternatives..."
+    message: "You seem lost... How about giving one of the options below a try?",
+    titreNavigation: "Take your pick"
   }
 }

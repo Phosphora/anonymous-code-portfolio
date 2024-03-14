@@ -1,0 +1,59 @@
+.PageErreur {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    padding: 4rem;
+    height: 84dvh;
+
+    .erreur-texte {
+        color: var(--couleur-stroke);
+        padding-top: 2rem;
+
+        h3 {
+            padding: 1.5rem 0;
+        }
+    }
+
+    .zoneNavigation404 {
+        width: 90dvw;
+        padding: 3rem 5dvw;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        gap: 1rem;
+        
+        @media screen and (min-width: 1600px) {
+            padding: 0 5dvw;
+        }
+
+        h1 {
+            color: var(--couleur-secondaire);
+            text-align: left;
+
+            @media screen and (min-width: 768px) {
+                text-align: center;
+            }
+        }
+
+        .navigation404 {
+            display: grid;
+            grid-template-columns: 1fr;
+            grid-gap: 1rem;
+
+            @media screen and (min-width: 768px) {
+                grid-template-columns: 1fr 1fr;
+                grid-gap: 2rem;
+                justify-items: center;
+            }
+
+            @media screen and (min-width: 992px) {
+                grid-template-columns: 1fr 1fr 1fr;
+            }
+
+            .bouton {
+                padding: 2rem;
+            }
+        }
+    }
+}

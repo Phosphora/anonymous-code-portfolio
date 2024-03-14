@@ -5,7 +5,7 @@ import PiedDePage from './PiedDePage';
 import Accueil from './Accueil';
 import MonProfil from './MonProfil';
 import Portfolio from './Portfolio';
-// import Page404 from './Page404';
+import PageErreur from './PageErreur';
 import TitrePage from './TitrePage';
 import ScrollToTop, { scrollUp } from './HautDePage';
 import { Route, Routes } from 'react-router-dom';
@@ -58,7 +58,7 @@ export default function App() {
 
         <Route exact path="/portfolio" element={< Portfolio langue={langue} />} ></Route> {/*Page Portfolio*/}
 
-        {/* <Route path='*' element={< Page404 langue={langue} />} ></Route> */}
+        <Route path='*' element={< PageErreur langue={langue} />} ></Route>
       </Routes>
       <PiedDePage langue={langue} /> {/* Footer du site - Présent par défaut sur tous les pages qui suivent */}
       <ScrollToTop />
