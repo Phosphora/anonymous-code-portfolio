@@ -43,22 +43,6 @@ export default function App() {
     localStorage.setItem('langue-en-ou-fr', langue);
   }, [langue]);
 
-  const [toggleAside, setToggleAside] = useState(false);
-
-  useEffect(() => {
-    const handlePopstate = () => {
-      setToggleAside(false);
-      scrollUp();
-    }
-
-    window.addEventListener('popstate', handlePopstate);
-    setToggleAside(false);
-
-    return () => {
-      window.removeEventListener('popstate', handlePopstate);
-    };
-  }, []);
-
   return (
     <div className="App">
       <Entete theme={theme} setTheme={setTheme} langue={langue} setLangue={setLangue} /> {/* Entête du site web - Présent par défaut sur tous les pages qui suivent */}

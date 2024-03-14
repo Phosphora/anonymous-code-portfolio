@@ -5,7 +5,7 @@ import image1Projet1 from '../medias/images/static/image1-projet1.png';
 import image1Projet2 from '../medias/images/static/image1-projet2.png';
 import image1Projet3 from '../medias/images/static/image1-projet3.png';
 
-export default function MesProjets({langue}) {
+export default function Portfolio({langue}) {
   return (
     <main className='Portfolio'>
       <section className="portfolio-section1">
@@ -37,7 +37,7 @@ export default function MesProjets({langue}) {
               <div class="card-content">
                 <p>{textePortfolio[langue].section2.courteDescriptionProjet1}</p>
                 <div class="btn-link">
-                  <a href="#" class="btn">{textePortfolio[langue].section2.btnTexte}</a>
+                  <a href="https://shawnoboy.github.io/Projet-Web-2023/" target="_blank" className="btn">{textePortfolio[langue].section2.btnTexte}</a>
                 </div>
               </div>
             </div>
@@ -51,7 +51,7 @@ export default function MesProjets({langue}) {
               <div class="card-content">
                 <p>{textePortfolio[langue].section2.courteDescriptionProjet2}</p>
                 <div class="btn-link">
-                  <a href="#" class="btn">{textePortfolio[langue].section2.btnTexte}</a>
+                  <a href="https://audrey808.itch.io/la-vengeance-des-royaumes" target="_blank" className="btn">{textePortfolio[langue].section2.btnTexte}</a>
                 </div>
               </div>
             </div>
@@ -65,7 +65,7 @@ export default function MesProjets({langue}) {
               <div class="card-content">
                 <p>{textePortfolio[langue].section2.courteDescriptionProjet3}</p>
                 <div class="btn-link">
-                  <a href="#" class="btn">{textePortfolio[langue].section2.btnTexte}</a>
+                  <a href={image1Projet3} target="_blank" className="btn">{textePortfolio[langue].section2.btnTexte}</a>
                 </div>
               </div>
             </div>
