@@ -13,8 +13,8 @@ export default function PiedDePage({langue}) {
         <p>{texteFooter[langue].p}</p>
         </div>
         <div className="medias-sociaux">
-            <a href="#" target='_blank' aria-label="GitHub"><GitHubIcon/></a>
-            <a href="#" target='_blank' aria-label="LinkedIn"><LinkedInIcon/></a>
+            <a href="https://github.com/Phosphora" target='_blank' aria-label="GitHub"><GitHubIcon/></a>
+            <a href="http://www.linkedin.com/in/winnie-li-3b704b232" target='_blank' aria-label="LinkedIn"><LinkedInIcon/></a>
         </div>
       </section>
       <section className="adresse-courriel">
