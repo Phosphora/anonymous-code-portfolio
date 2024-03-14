@@ -66,13 +66,13 @@ export default function Entete({theme, setTheme, langue, setLangue}) {
         <div className="large-screen-nav">
           <ul>
             <li>
-              <Link to="/accueil">{texteHeader[langue].sectionNavigation.accueil}</Link>
+              <Link onClick={() => {scrollUp()}} to="/accueil">{texteHeader[langue].sectionNavigation.accueil}</Link>
             </li>
             <li>
-              <Link to="/a-propos-de-moi">{texteHeader[langue].sectionNavigation.monProfil}</Link>
+              <Link onClick={() => {scrollUp()}} to="/a-propos-de-moi">{texteHeader[langue].sectionNavigation.monProfil}</Link>
             </li>
             <li>
-              <Link to="/portfolio">{texteHeader[langue].sectionNavigation.monPortfolio}</Link>
+              <Link onClick={() => {scrollUp()}} to="/portfolio">{texteHeader[langue].sectionNavigation.monPortfolio}</Link>
             </li>
           </ul>
         </div>
@@ -136,7 +136,7 @@ export default function Entete({theme, setTheme, langue, setLangue}) {
           onClick ={(e) => e.stopPropagation()}
           >
               <li>
-                <Link onClick={() => {handleBurgerClick(); scrollUp(); closeMenu()}}to="/accueil">{texteHeader[langue].sectionNavigation.accueil}</Link>
+                <Link onClick={() => {handleBurgerClick(); scrollUp(); closeMenu()}} to="/accueil">{texteHeader[langue].sectionNavigation.accueil}</Link>
               </li>
               <li>
                 <Link onClick={() => {handleBurgerClick(); scrollUp(); closeMenu()}} to="/a-propos-de-moi">{texteHeader[langue].sectionNavigation.monProfil}</Link>
