@@ -60,7 +60,7 @@ export default function App() {
 
         {/* <Route path='*' element={< Page404 langue={langue} />} ></Route> */}
       </Routes>
-      {/*<PiedDePage langue={langue} /> {/* Footer du site - Présent par défaut sur tous les pages qui suivent */}
+      <PiedDePage langue={langue} /> {/* Footer du site - Présent par défaut sur tous les pages qui suivent */}
       <ScrollToTop />
     </div>
   );

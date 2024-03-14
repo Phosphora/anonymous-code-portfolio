@@ -1,0 +1,79 @@
+.PiedDePage {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--couleur-principale);
+    padding: 2rem 0;
+
+    @media screen and (min-width: 768px) {
+        flex-direction: row;
+        padding: 1.5rem;
+    }
+    
+    .contact {
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        @media screen and (min-width: 768px) {
+            justify-content: unset;
+            align-items: unset;
+        }
+
+        .contact-texte {
+            text-align: center;
+
+            @media screen and (min-width: 768px) {
+                text-align: left;
+                flex: 1;
+            }
+
+            h1 {
+                padding-bottom: 0.5rem;
+            }
+
+            p {
+                width: 22rem;
+
+                @media screen and (min-width: 768px) {
+                    width: 17rem;
+                    padding-bottom: 1rem;
+                }
+            }
+        }
+
+        .medias-sociaux {
+            padding: 1rem;
+
+            @media screen and (min-width: 768px) {
+                padding: unset;
+            }
+
+            a {
+                padding-right: 0.8rem;
+            }
+        }
+    }
+
+    .adresse-courriel {
+        height: 6rem;
+        width: 15rem;
+        border-radius: 1rem;
+        padding: 1rem;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: var(--couleur-stroke);
+
+        @media screen and (min-width: 768px) {
+            flex: 1;
+        }
+
+        a {
+            padding-top: 1rem;
+        }
+    }
+}
