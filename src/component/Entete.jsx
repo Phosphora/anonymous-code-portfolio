@@ -74,9 +74,6 @@ export default function Entete({theme, setTheme, langue, setLangue}) {
             <li>
               <Link to="/portfolio">{texteHeader[langue].sectionNavigation.monPortfolio}</Link>
             </li>
-            <li>
-              <Link to="/contact">{texteHeader[langue].sectionNavigation.contact}</Link>
-            </li>
           </ul>
         </div>
 
@@ -138,18 +135,14 @@ export default function Entete({theme, setTheme, langue, setLangue}) {
           ref={menuRef}
           onClick ={(e) => e.stopPropagation()}
           >
-              <li >
+              <li>
                 <Link onClick={() => {handleBurgerClick(); scrollUp(); closeMenu()}}to="/accueil">{texteHeader[langue].sectionNavigation.accueil}</Link>
               </li>
-              <li >
+              <li>
                 <Link onClick={() => {handleBurgerClick(); scrollUp(); closeMenu()}} to="/a-propos-de-moi">{texteHeader[langue].sectionNavigation.monProfil}</Link>
               </li>
-              <li >
+              <li>
                 <Link onClick={() => {handleBurgerClick(); scrollUp(); closeMenu()}} to="/portfolio">{texteHeader[langue].sectionNavigation.monPortfolio}</Link>
-              </li>
-            
-              <li >
-                <Link onClick={() => {handleBurgerClick(); scrollUp(); closeMenu()}} to="/contact">{texteHeader[langue].sectionNavigation.contact}</Link>
               </li>
             </ul>
         </nav>      

@@ -14,13 +14,13 @@ export default function MesProjets({langue}) {
           <p>{textePortfolio[langue].section1.p}</p>
         </div>
         <div className="portfolio-section1-image">
-          <div class="book">
-            <div class="book__pg-shadow"></div>
-            <div class="book__pg"></div>
-	          <div class="book__pg book__pg--2"></div>
-	          <div class="book__pg book__pg--3"></div>
-	          <div class="book__pg book__pg--4"></div>
-	          <div class="book__pg book__pg--5"></div>
+          <div className="book">
+            <div className="book__pg-shadow"></div>
+            <div className="book__pg"></div>
+	          <div className="book__pg book__pg--2"></div>
+	          <div className="book__pg book__pg--3"></div>
+	          <div className="book__pg book__pg--4"></div>
+	          <div className="book__pg book__pg--5"></div>
           </div>
         </div>
       </section>

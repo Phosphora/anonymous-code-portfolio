@@ -23,9 +23,6 @@ export default function TitrePage() {
       case '/portfolio':
         nouveauTitre = titre + " | " + 'Portfolio';
         break;
-      case '/contact':
-        nouveauTitre = titre + " | " + 'Contact';
-        break;
       default:
         nouveauTitre = titre + " | " + 'Erreur 404';
         break;
