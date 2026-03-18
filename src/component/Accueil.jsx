@@ -3,7 +3,7 @@ import '../sass/Accueil.scss'
 import { texteAccueil } from '../code/textes';
 import { Link } from "react-router-dom";
 import ConstellationEtoiles from '../code/ConstellationEtoiles';
-// import { scrollUp } from './ScrollToTop';
+import { scrollUp } from './HautDePage';
 // import TechnoIcons from './TechnoIcons';
 // import Carrousel from './Carrousel';
 
@@ -25,7 +25,7 @@ export default function Accueil({langue}) {
       {/* SECTION 2 - Introduction */}
       <section className="accueil-section2">
         <h2>{texteAccueil[langue].section2.titre}</h2>
-        <p>{texteAccueil[langue].section2.p1}<Link to="/a-propos-de-moi" className="bouton-bg-seulement">{texteAccueil[langue].section2.lien}</Link>{texteAccueil[langue].section2.p2}</p>
+        <p>{texteAccueil[langue].section2.p1}<Link to="/a-propos-de-moi" className="bouton-bg-seulement" onClick={scrollUp}>{texteAccueil[langue].section2.lien}</Link>{texteAccueil[langue].section2.p2}</p>
       </section>
 
       {/* SECTION 2.5 - Liste des technologies
@@ -43,7 +43,7 @@ export default function Accueil({langue}) {
       {/* SECTION 4 - Portfolio */}
       <section className="accueil-section4">
         <h2>{texteAccueil[langue].section4.titre}</h2>
-        <p>{texteAccueil[langue].section4.p1}<Link to="/portfolio" className="bouton-bg-seulement">{texteAccueil[langue].section4.lien}</Link>{texteAccueil[langue].section4.p2}</p>
+        <p>{texteAccueil[langue].section4.p1}<Link to="/portfolio" className="bouton-bg-seulement" onClick={scrollUp}>{texteAccueil[langue].section4.lien}</Link>{texteAccueil[langue].section4.p2}</p>
       </section>
       </div>
     </main>
