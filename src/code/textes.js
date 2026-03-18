@@ -138,7 +138,7 @@ export const textePortfolio = {
   fr: {
     section1: {
       titre: "Porfolio",
-      p: "Tout au long de mon parcours scolaire, j'ai eu l'occasion de travailler sur divers projets qui ont élargi mes compétences et m'ont permis d'explorer le paysage en constante évolution du multimédia. De la conception de graphiques visuellement attrayants au développement de sites web interactifs, chaque projet a été un tremplin dans ma croissance en tant que professionnel du multimédia. Voici mon parcours jusqu'à présent."
+      p: "Tout au long de mon parcours scolaire, j'ai eu l'occasion de travailler sur divers projets qui ont élargi mes compétences et m'ont permis d'explorer le paysage en constante évolution du multimédia. De la conception de graphiques visuellement attrayants au développement de sites web interactifs, chaque projet a été un tremplin dans ma croissance en tant que professionnelle du multimédia. Voici mon parcours jusqu'à présent."
     },
   
     section2: {
