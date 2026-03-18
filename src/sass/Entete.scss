@@ -95,7 +95,16 @@
         cursor: pointer;
         outline: none; 
         font-family: var(--police-header);
+        font-size: 0.75rem;
         color: #FFFFFF;
+
+        @media screen and (min-width: 992px) {
+          font-size: 0.65rem;
+        }
+        
+        @media screen and (min-width: 1600px) and (min-height: 900px) {
+          font-size: 0.85rem;
+        }
       }
 
       .entete-btn-burger {
