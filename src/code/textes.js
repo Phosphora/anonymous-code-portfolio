@@ -9,7 +9,7 @@ export const texteAccueil = {
       },
       section2: {
         titre: "Explorez la créativité, vivez l'innovation",
-        p1: "Bonjour et bienvenue dans mon espace numérique, où la créativité rencontre la fonctionnalité, et l'innovation le design ! Je suis Winnie Li, une étudiante en multimédia. Si vous souhaitez en savoir plus sur moi, veuillez consulter la section ",
+        p1: "Bonjour et bienvenue dans mon espace numérique, où la créativité rencontre la fonctionnalité, et l'innovation le design ! Je suis Winnie Li, une diplômée spécialisée dans le multimédia. Si vous souhaitez en savoir plus sur moi, veuillez consulter la section ",
         lien: "À propos de moi",
         p2: " de mon site web."
       },
@@ -32,7 +32,7 @@ export const texteAccueil = {
       },
       section2: {
         titre: "Explore Creativity, Experience Innovation",
-        p1: "Hello and welcome to my digital space, where creativity meets functionality, and innovation meets design! I'm Winnie Li, a multimedia student. If you'd like to know more about me, please visit the ",
+        p1: "Hello and welcome to my digital space, where creativity meets functionality, and innovation meets design! I'm Winnie Li, a college graduate who specializes in multimedia. If you'd like to know more about me, please visit the ",
         lien: "About me",
         p2: " section of my website."
       },
@@ -102,7 +102,7 @@ export const texteMonProfil = {
     },
     section2: {
       titre: "Permettez-moi de me présenter…",
-      p: "Eh bien, bonjour à vous ! Je m'appelle Winnie Li et je suis une étudiante en multimédia passionnée qui souhaite ardemment devenir une développeuse web full-stack. Profondément fascinée par le monde dynamique de la technologie et de la créativité, je m'engage à maîtriser l'art du codage et de la conception pour créer des expériences numériques immersives."
+      p: "Eh bien, bonjour à vous ! Je m'appelle Winnie Li et je suis une diplômée passionnée qui souhaite ardemment devenir une développeuse web full-stack. Profondément fascinée par le monde dynamique de la technologie et de la créativité, je m'engage à maîtriser l'art du codage et de la conception pour créer des expériences numériques immersives."
     },
     section3: {
       titre: "Ce que j'apporte à la table :",
@@ -120,7 +120,7 @@ export const texteMonProfil = {
     },
     section2: {
       titre: "Allow me to introduce myself...",
-      p: "Well, hello there! My name is Winnie Li and I am a passionate multimedia student with a fervent desire to become a full-stack web developer. As someone deeply fascinated by the dynamic world of technology and creativity, I am committed to mastering the art of coding and design to create immersive digital experiences."
+      p: "Well, hello there! My name is Winnie Li and I am a passionate college graduate with a fervent desire to become a full-stack web developer. As someone deeply fascinated by the dynamic world of technology and creativity, I am committed to mastering the art of coding and design to create immersive digital experiences."
     },
     section3: {
       titre: "What I Bring to the Table:",
